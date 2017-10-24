@@ -1,0 +1,180 @@
+.container-canivete {
+    width: 25%;
+    margin: 290px auto 0;
+    position: relative;
+}
+
+.principal {
+    z-index: 9;
+    position: absolute;
+}
+
+.tool1 {
+    margin: 5% 0 0 16%;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+}
+
+.tool2 {
+    margin: 3% 0 0 18%;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+
+.tool3 {
+    margin: 0% 0 0 22%;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+
+.tool4 {
+    margin: 6% 0 0 30%;
+    position: absolute;
+    width: 60%;
+    z-index: 2;
+}
+
+.tool5 {
+    margin: 15% 0 0 10%;
+    position: absolute;
+    width: 75%;
+    z-index: 1;
+}
+
+.tool6 {
+    margin: 6.5% 0 0 26%;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+
+.tool7 {
+    margin: 6% 0 0 24%;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+
+.tool8 {
+    margin: 5.8% 0 0 30%;
+    position: absolute;
+    width: 51%;
+    z-index: 1;
+}
+
+.button {
+    width: 150px;
+    height: 10%;
+    margin: 15% auto 0;
+    border: 10px solid black;
+}
+
+
+
+/*
+@media (max-width: 767px) {
+    .container-canivete {
+        margin-top: 300px;
+        background-color: blue;
+    }
+
+    section > img {
+        margin-top: -75px;
+        opacity: 0;
+    }
+
+    article > img {
+        width: 50%;
+        margin-left: 150px;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 768px) {  OK
+    .container-canivete {
+        margin-top: 300px;
+        background-color: yellow;
+    }
+
+    section > img {
+        margin-top: -75px;
+        opacity: 0;
+    }
+
+    article > img {
+        width: 50%;
+        margin-left: 50px;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 992px) {  OK
+    .container-canivete {
+        margin-top: 300px;
+        background-color: red;
+    }
+
+    section > img {
+        margin-top: -75px;
+        opacity: 0;
+    }
+
+    article > img {
+        width: 50%;
+        margin-left: 150px;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 1200px) {  OK
+    .container-canivete {
+        margin-top: 300px;
+        background-color: pink;
+    }
+
+    section > img {
+        margin-top: -75px;
+    }
+
+    article {
+        position: relative;
+    }
+
+    article > .tool1 {
+        position: absolute;
+    }
+
+    article > .tool1 > img {
+        width: 50%;
+        margin-left: 55px;
+        opacity: 0;
+    }
+
+    article > .tool8 > img {
+        width: 50%;
+        margin-left: 150px;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-canivete {
+        margin-top: 300px;
+        background-color: green;
+    }
+
+    section > img {
+        margin-top: -75px;
+        opacity: 0;
+    }
+
+    article > img {
+        width: 50%;
+        margin-left: 10px;
+        opacity: 0;
+    }
+}
+*/

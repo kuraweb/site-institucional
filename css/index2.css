@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+}
+
+h1, h2 {
+    margin: 0;
+
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+    height: 250px;
+}
+
+.green {
+    background-color: green;
+    height: 90px;
+}
+
+.blue {
+    background-color: blue;
+    height: 45px;
+}
+
+@media (max-width: 767px) {
+    .red {
+        background-color: yellow;
+        height: 250px;
+    }
+
+    .green {
+        background-color: yellow;
+        height: 90px;
+    }
+
+    .blue {
+        background-color: yellow;
+        height: 45px;
+    }
+}

@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    background-color: yellow;
+}
+
+@media (min-width: 992px) {
+    background-color: red;
+}
+
+@media (min-width: 1200px) {
+    background-color: pink;
+}
+
+@media (max-width: 480px) {
+    background-color: green;
+}

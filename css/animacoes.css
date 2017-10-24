@@ -1,0 +1,167 @@
+/* Animações */
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+
+
+/* LEFT */
+
+
+
+@keyframes rotateOutUpLeftOne {
+  from {
+    transform-origin: left center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: left center;
+    transform: rotate3d(0, 0, 1, -180deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpLeftOne {
+  animation-name: rotateOutUpLeftOne;
+}
+
+
+
+@keyframes rotateOutUpLeftTwo {
+  from {
+    transform-origin: left center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: left center;
+    transform: rotate3d(0, 0, 1, -150deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpLeftTwo {
+  animation-name: rotateOutUpLeftTwo;
+}
+
+
+
+@keyframes rotateOutUpLeftThree {
+  from {
+    transform-origin: left center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: left center;
+    transform: rotate3d(0, 0, 1, -115deg);
+    margin-top: -1%;
+    opacity: 1;
+  }
+}
+.rotateOutUpLeftThree {
+  animation-name: rotateOutUpLeftThree;
+}
+
+
+
+/* RIGHT */
+
+
+
+@keyframes rotateOutUpRightOne {
+  from {
+    transform-origin: right center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right center;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpRightOne {
+  animation-name: rotateOutUpRightOne;
+}
+
+
+
+@keyframes rotateOutUpRightTwo {
+  from {
+    transform-origin: right center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right center;
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpRightTwo {
+  animation-name: rotateOutUpRightTwo;
+}
+
+
+
+@keyframes rotateOutUpRightThree {
+  from {
+    transform-origin: right center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right center;
+    transform: rotate3d(0, 0, 1, 120deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpRightThree {
+  animation-name: rotateOutUpRightThree;
+}
+
+
+
+@keyframes rotateOutUpRightFour {
+  from {
+    transform-origin: right center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right center;
+    transform: rotate3d(0, 0, 1, 150deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpRightFour {
+  animation-name: rotateOutUpRightFour;
+}
+
+
+
+@keyframes rotateOutUpRightFive {
+  from {
+    transform-origin: right center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right center;
+    transform: rotate3d(0, 0, 1, 180deg);
+    opacity: 1;
+  }
+}
+.rotateOutUpRightFive {
+  animation-name: rotateOutUpRightFive;
+}
